@@ -441,8 +441,6 @@ namespace SpaceShooter
                 asteroids[i] = pos;
             }
 
-
-            // --- внутри GameLoop после движения астероидов ---
             for (int i = blasters.Count - 1; i >= 0; i--)
             {
                 var blasterInfo = blasters[i];
